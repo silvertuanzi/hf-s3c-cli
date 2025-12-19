@@ -2,7 +2,7 @@
 
 A CLI tool similar to huggingface-cli, but use [S3impleClient](https://github.com/KohakuBlueleaf/S3impleClient) for accelerating download/upload.
 
-## Install
+## Installation
 
 Upstream has [Attribute Error](https://github.com/KohakuBlueleaf/S3impleClient/issues/1), so install my fork version first:
 ```
@@ -13,7 +13,7 @@ Then install the CLI:
 pip install git+https://github.com/silvertuanzi/hf-s3c-cli.git
 ```
 
-### Install as a command use uv tool
+### Install as a command using uv tool
 
 Alternatively, you can use `uv tool` (similar to `pipx`) to install this repo:
 ```
